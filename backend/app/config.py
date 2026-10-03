@@ -1,3 +1,5 @@
+# this file is responsible for defining the configuration settings for the FastAPI application, including application metadata, cryptographic secret key, database URL, and other relevant settings. 
+# The settings are defined using Pydantic's BaseSettings class, which allows for easy management of environment variables and default values.
 import os
 from pydantic_settings import BaseSettings
 
